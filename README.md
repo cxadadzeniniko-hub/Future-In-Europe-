@@ -11,3 +11,7 @@ Future In Europe არის საგანმანათლებლო ვ�
 ### Mobile Version
 
 ![Mobile Screenshot](./images/Screenshot%202026-06-15%20200443.png)
+
+### Mobile Version
+
+![Mobile Screenshot](./images/mobile.png)
