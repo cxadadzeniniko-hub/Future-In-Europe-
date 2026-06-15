@@ -5,3 +5,5 @@ Future In Europe არის საგანმანათლებლო ვ�
 ### Desktop Version
 
 ![Desktop Screenshot](./images/Screenshot%202026-06-15%20193716.png)
+
+![Screenshot](./images/Screenshot%202026-06-15%20195628.png)
