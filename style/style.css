@@ -272,7 +272,10 @@ body {
     color: var(--text-color);
     text-align: center;
     padding: 0 1rem 1rem;
+
 }
+
+
 
 .italy_cards{
     margin-top: 5rem;
@@ -420,10 +423,10 @@ body {
 
 
 
-/* უნივერსიტეტის გვერდები იწყება აქედან */
 
 
 
+/* ეს არის უნივერსიტეტის გვერდი */
 
 
 
@@ -484,7 +487,7 @@ body {
 
 
 
-/* ეს არის პირველი გვერდის */
+/* ეს მჭირდება პირველი გერდისთვის*/
 .story_section{
     padding: 4rem 1rem;
 }
