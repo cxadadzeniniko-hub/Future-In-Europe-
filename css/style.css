@@ -160,55 +160,55 @@ body {
 
 
 
-@media (max-width:600px){
+/* მობილურის  სტილები */
+
+.burger{
+    display: block;
+}
+
+.nav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #0b4188;
+    padding: 1rem 0;
+}
+
+.nav.active{
+    display: block;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-left: 1.5rem;
+}
+
+
+
+@media (min-width:768px){
 
     .burger{
-        display: block;
+        display: none;
     }
 
     .nav{
-        display: none;
-
-        position: absolute;
-        top: 100%;
-        left: 0;
-
-        width: 100%;
-
-        background: #0b4188;
-        padding: 1rem 0;
-    }
-
-    .nav.active{
-        display: block;
+        display: block !important;
+        position: static;
+        width: auto;
+        background: transparent;
+        padding: 0;
     }
 
     .nav_list{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-
-        padding-left: 1.5rem;
-    }
-
-    .nav_link{
-        font-size: 1rem;
-    }
-
-    .hero img{
-        height: 60vh;
-    }
-
-    .hero_text{
-        top: 10%;
-    }
-
-    .hero_text h1{
-        font-size: 2rem;
-    }
-
-    .hero_text p{
-        font-size: 1rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        padding-left: 0;
     }
 }
 
