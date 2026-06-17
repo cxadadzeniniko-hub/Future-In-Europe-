@@ -140,7 +140,7 @@ body {
 
 
 .burger{
-    display: none;
+    display: block;
     background: transparent;
     border: none;
     cursor: pointer;
